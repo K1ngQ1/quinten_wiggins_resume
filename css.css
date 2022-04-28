@@ -1,0 +1,60 @@
+html{
+    /*background image for webpage*/
+    background-image: url(bg.jpg);
+}
+body{
+        /*main body and styling to get it to the desired width and style*/
+    color: white;
+    background-color: rgb(41, 41, 48);
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(48, 48, 48);
+}
+
+.row{
+
+    /*div row styling and adding shadow effect and display type*/
+    box-shadow: 0px 0px 15px 1px rgb(20, 20, 20);
+    padding: 15px;
+    display: flex;
+    
+}
+
+.col{
+    /*div column flex height and padding*/
+    flex: 1;
+    padding: 15px;
+}
+
+#info{
+
+    /*scrolling atribute to the right hand side div where all the information is shown*/
+    overflow-y: scroll;
+    height: 600px;
+    width: 100%;
+    margin: 5px;
+}
+
+#img{
+
+    /*styling for main image*/
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px rgb(20, 20, 20);
+    height: 600px;
+}
+
+
+    /*simple styling for headings*/
+h1,
+h2{
+    padding: 5px;
+}
+
+h5 {
+    color: aqua;
+}
